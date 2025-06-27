@@ -11,7 +11,7 @@ RUN pip3 install transformers==4.46.3
 RUN pip3 install torch==2.0.1
 RUN pip3 install hf-transfer==0.1.9
 RUN pip3 install vllm==0.7.3
-RUN pip3 install huggingface-hub==0.27.1
+RUN pip3 install huggingface-hub==0.30.0
 RUN pip3 install accelerate
 COPY ./main.py /app/main.py
 
